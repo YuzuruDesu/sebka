@@ -1,73 +1,34 @@
-#__next > div > div > div.jsx-2687105798.header-wrapper > div{visibility:hidden;}
+/* Załóżmy, że Twoja grafika ma nazwę "moje-tlo.jpg" i znajduje się w tym samym folderze co plik CSS */
+/* Zastąp "moje-tlo.jpg" właściwą nazwą Twojej grafiki */
 
-body
-{
-    background-image:url("https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExb3c3dXMwdmRrYjhyb2p1N2x3MG91NTBwdHd1dmo5Zmh0dGp5OGw5aSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/LvtxIRg1Ly96E/giphy.gif");
-    background-repeat:no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center center;
+/* Ustaw tło dla całego dokumentu */
+body {
+  background-image: url("https://sm.ign.com/t/ign_pl/screenshot/default/9_y58a.1200.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
-
-.sidebar-list-item.jsx-1424615656 > a.is-active.jsx-1424615656 {
-    background-color: rgb(2 42 76)!important;
+/* Dostosuj kolor tła przycisków na liście */
+.list-button {
+  background-color: #c62828;
+}
+.list-button:hover {
+  background-color: #b71c1c;
 }
 
-.cellLink-link.jsx-3147125735:hover {
-    color: rgb(59 142 238);
+/* Dostosuj kolor tła rozwijanego menu (dropdown) */
+.custom-dropdown-control {
+  background-color: #c62828;
 }
 
-
-a.jsx-338354777.cellLink-link:hover {
-    color: rgb(2 36 65);
+/* Dostosuj kolor linków w komórkach listy */
+.cellLink-link {
+  color: #1565c0;
 }
 
-.custom-dropdown-control.css-4xy4ym-control {
-    background-color: rgb(2 42 76);
-}
-
-a.jsx-669136943.jsx-1424615656.is-active {
-    background-color: rgb(2 42 76)!important;
-}
-
-
-button.jsx-1735702853.jsx-2070939811.advanced-tags-btn {
-    background-color: rgb(2 42 76);
-}
-
-button.jsx-1735702853.jsx-3320471011.advanced-tags-btn {
-    background-color: rgb(2 42 76);
-}
-
-.jsx-4008542521.jsx-3111695202.input-background {
-    background-color: rgb(2 42 76);
-    border-radius: 20px 0px;
-}
-
-.jsx-4008542521.jsx-1235514216.input-background {
-    background: rgb(2 42 76);
-    border-radius: 20px 0px;
-}
-
-a.jsx-669136943.jsx-551243074.is-active {
-    background-color: rgb(2 42 76)!important;
-}
-
-button.jsx-4129604865.jsx-3871525032.dropdown-button.dropdown-button {
-    background-color: rgb(2 36 65);
-}
-
-
-button.jsx-4129604865.jsx-3871525032.dropdown-button.dropdown-button:hover {
-    background-color: rgb(59 142 238);
-}
-
-.jsx-3193269665.jsx-862053794.premiere-dates-wrapper {
-    background-color: rgb(2 42 76);
-}
-
-.list-button.jsx-3871525032:hover {
-    color: rgb(255, 255, 255);
-    background-color: rgb(2 36 65)!important;
+/* Dostosuj kolor linków po najechaniu na nie */
+.cellLink-link:hover {
+  color: #1976d2;
 }
