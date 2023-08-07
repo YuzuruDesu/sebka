@@ -3,32 +3,9 @@
 
 /* Ustaw tło dla całego dokumentu */
 body {
-  background-image: url("https://sm.ign.com/t/ign_pl/screenshot/default/9_y58a.1200.jpg");
+  background-image: url("https://i.pinimg.com/originals/05/2d/1e/052d1e0d9acab5e83601727336d9cde4.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-}
-
-/* Dostosuj kolor tła przycisków na liście */
-.list-button {
-  background-color: #c62828;
-}
-.list-button:hover {
-  background-color: #b71c1c;
-}
-
-/* Dostosuj kolor tła rozwijanego menu (dropdown) */
-.custom-dropdown-control {
-  background-color: #c62828;
-}
-
-/* Dostosuj kolor linków w komórkach listy */
-.cellLink-link {
-  color: #1565c0;
-}
-
-/* Dostosuj kolor linków po najechaniu na nie */
-.cellLink-link:hover {
-  color: #1976d2;
 }
