@@ -1,7 +1,4 @@
-/* Załóżmy, że Twoja grafika ma nazwę "moje-tlo.jpg" i znajduje się w tym samym folderze co plik CSS */
-/* Zastąp "moje-tlo.jpg" właściwą nazwą Twojej grafiki */
 
-/* Ustaw tło dla całego dokumentu */
 body {
   background-image: url("https://i.pinimg.com/originals/05/2d/1e/052d1e0d9acab5e83601727336d9cde4.jpg");
   background-size: cover;
